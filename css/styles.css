@@ -44,12 +44,17 @@ button {
     padding-right: 15px;
     margin: 0 auto;
    }
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 /* ---------------------------header------------------------------- */
 .header {
     background: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo {
@@ -176,9 +181,7 @@ margin-right: 50px;
 .first-main-button:hover {
     background-color: #188CE8;
 }
-.second-main-section{
-    padding-top: 94px;
-}
+
 .second-main-list {
     display: flex;
     justify-content: space-between;
@@ -200,10 +203,7 @@ margin-right: 50px;
     padding-top: 10px;
     max-width: 270px;
 }
-.third-main-section {
-    padding-top: 94px;
-    margin-bottom: 94px;
-}
+
 .third-main-list{
     display: flex;
     justify-content: space-between;
@@ -233,10 +233,18 @@ margin-right: 50px;
     padding-top: 94px;
     margin-bottom: 50px;
 }
+
 .fourth-main-list {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between
+}
+
+.fourth-main-list-block {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .fourth-main-list-title {
     font-weight: 500;
@@ -343,10 +351,6 @@ margin-right: 50px;
     letter-spacing: 0.03em;
     color: #212121;
     padding: 6px, 22px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 }
 .portfolio-first-list-button:hover {
     background-color:var(--main-btn-color);
@@ -363,8 +367,11 @@ margin-right: 50px;
     justify-content: space-between;
 }
 .portfolio-second-main-list-group{
-  margin-bottom: 30px;
-  border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .portfolio-list-text-first {
@@ -374,6 +381,7 @@ margin-right: 50px;
     letter-spacing: 0.06em;
     color: var(--main-title-color-first);
     padding-top: 20px;
+    margin-left: 24px;
 }
 
 .portfolio-list-text-second {
@@ -383,6 +391,7 @@ margin-right: 50px;
     color: var(--main-title-color-second);
     padding-top: 4px;
     margin-bottom: 20px;
+    margin-left: 24px;
 }
 
 .portfolio-second-main-list-group {
