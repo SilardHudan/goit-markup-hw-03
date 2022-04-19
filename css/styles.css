@@ -213,7 +213,7 @@ padding-bottom: 94px;
     display: flex;
     }
 
-.third-main-list:not(:last-child) {
+.third-main-list-title:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -228,6 +228,7 @@ padding-bottom: 94px;
 }
 .fourth-main-section {
     background: #F5F4FA;
+    padding-top: 94px;
     padding-bottom: 94px;
 
 }
@@ -239,22 +240,25 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-title-color-first);
-    padding-top: 94px;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
 .fourth-main-list {
-    display: flex;
-    justify-content: space-between
+    display: flex
 }
 
 .fourth-main-list-block {
+    width: 270px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.fourth-main-list-block:not(:last-child) {
+    margin-right: 30px;
+}
+
 .fourth-main-list-tt{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -407,9 +411,7 @@ padding-bottom: 94px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-title-color-first);
-    padding-top: 20px;
-    margin-left: 24px;
+    color: var(--main-title-color-first)
 }
 
 .portfolio-list-text-second {
@@ -418,8 +420,9 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--main-title-color-second);
     padding-top: 4px;
-    margin-bottom: 20px;
-    margin-left: 24px;
+}
+.portfolio-second-main-list-tt{
+    padding: 20px 24px
 }
 
 .portfolio-second-main-list-group {
@@ -427,5 +430,5 @@ padding-bottom: 94px;
 }
 
 .visually-hidden {
-    visibility: hidden;
+display: none;
 }
